@@ -1,25 +1,149 @@
 @font-face {
-    font-family: 'ralewaythin_italic';
-    src: url('raleway-italic-variablefont_wght-webfont.eot');
-    src: url('raleway-italic-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-italic-variablefont_wght-webfont.woff') format('woff'),
-         url('raleway-italic-variablefont_wght-webfont.ttf') format('truetype'),
-         url('raleway-italic-variablefont_wght-webfont.svg#ralewaythin_italic') format('svg');
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway-bold-webfont.eot');
+    src: url('fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-bold-webfont.woff') format('woff'),
+         url('fonts/raleway-bold-webfont.ttf') format('truetype'),
+         url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'ralewaythin';
-    src: url('raleway-variablefont_wght-webfont.eot');
-    src: url('raleway-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff'),
-         url('raleway-variablefont_wght-webfont.ttf') format('truetype'),
-         url('raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
+    font-family: 'ralewaylight';
+    src: url('fonts/raleway-light-webfont.eot');
+    src: url('fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('fonts/raleway-light-webfont.woff') format('woff'),
+         url('fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: normal;
     font-style: normal;
 
+}
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        font-family: 'ralewaylight', Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin: 0px 50px 60px 50px;
+    }
+    
+    h1 {
+        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    h2 {
+        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    h3 {
+        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+
+    header {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    #logo {
+        margin: 50px 25px 10px 0px;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header nav ul li {
+        padding: 50px 25px 10px 25px;
+    }
+
+    header nav ul li a.actif { 
+        color: #0065FC;
+        text-decoration: none;
+        border-top: #0065FC solid 2px;
+        padding-top: 62px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    header nav ul li a.inscription { 
+        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+        color: #0065FC;
+        text-decoration: none;
+        padding-top: 62px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    strong {
+        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    }
+
+    #hebergements {
+    
+        display: flex;
+        justify-content: space-between;
+        margin : 20px 20px 20px 0px;
+        background-color: #F2F2F2;
+        padding: 40px 40px 40px 40px;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;()
+    }
+
+    .hebergement_bloc img {
+        width:240px; /* you can use % */
+        height: 190px;
+    }
+
+    .hebergement_bloc { 
+        background-color: #ffffff;
+        padding: 5px 5px 5px 5px;
+        block-size: 190px;
+    }
+
+    .populaire_bloc { 
+        background-color: #ffffff;
+        padding: 5px 5px 5px 5px;
+        block-size: 135px;
+
+    }
+
+    .populaire_bloc img {
+        width:auto; 
+        height: 135px;
+    }
+
+    
+    .auberge_cannebiere
+{
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    right: ;
+    left: ;
+    background-color: white;
+   
 }
