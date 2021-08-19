@@ -1,4 +1,5 @@
-@font-face {
+@font-face 
+{
     font-family: 'ralewaybold';
     src: url('fonts/raleway-bold-webfont.eot');
     src: url('fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -11,7 +12,8 @@
 
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'ralewaylight';
     src: url('fonts/raleway-light-webfont.eot');
     src: url('fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -24,51 +26,70 @@
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) 
+{
 
-    body {
+    body 
+    {
         font-family: 'ralewaylight', Arial, Helvetica, sans-serif;
         font-size: 14px;
-        margin: 0px 50px 60px 50px;
+        margin: 0;
     }
     
-    h1 {
+    h1 
+    {
         font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
         font-size: 18px;
     }
 
-    h2 {
+    h2 
+    {
         font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
         font-size: 18px;
     }
 
-    h3 {
+    h3 
+    {
         font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
     }
+
+    .afficher_plus 
+    {
+        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    } 
     
-    li {
+    li 
+    {
         list-style-type: none;
     }
 
-    header {
-        display:flex;
+    header 
+    {
+        display:  flex;
         justify-content: space-between;
+        margin-left: 50px;
     }
 
-    #logo {
+    #logo 
+    {
         margin: 50px 25px 10px 0px;
     }
 
-    header nav ul {
+    header nav ul 
+    {
         display: flex;
         justify-content: space-around;
     }
 
-    header nav ul li {
+    header nav ul li 
+    {
+        margin-right: 50px;
         padding: 50px 25px 10px 25px;
     }
 
-    header nav ul li a.actif { 
+    header nav ul li a.actif 
+    { 
         color: #0065FC;
         text-decoration: none;
         border-top: #0065FC solid 2px;
@@ -77,7 +98,8 @@
         padding-left: 25px;
     }
 
-    header nav ul li a.inscription { 
+    header nav ul li a.inscription 
+    { 
         font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
         color: #0065FC;
         text-decoration: none;
@@ -86,52 +108,93 @@
         padding-left: 25px;
     }
 
-    a {
+    a 
+    {
         color: #000000;
         text-decoration: none;
     }
-    a:visited {
+    a:visited 
+    {
         color: #000000;
         text-decoration: none;
     }
 
-    strong {
+    strong 
+    {
         font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
     }
 
-    #hebergements {
+    .description 
+    {
+        margin-left: 50px;
+    }
+
+    #hebergements 
+    {
     
         display: flex;
         justify-content: space-between;
-        margin : 20px 20px 20px 0px;
+        margin : 20px 20px 20px 50px;
+        padding: 40px 40px 40px 0px;
+    }
+
+    aside 
+    {
+        text-align: justify;
+        margin-left: 20px;
         background-color: #F2F2F2;
         padding: 40px 40px 40px 40px;
+        border-radius: 20px;
     }
 
-    section {
+    .section_hebergements 
+    {
+        text-align: justify;
+        margin-right: 20px;
+        background-color: #F2F2F2;
+        padding: 40px 40px 40px 40px;
+        border-radius: 20px;
+    }
+
+    .hebergements_box 
+    {
         display: flex;
-        flex-wrap: wrap;()
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
-    .hebergement_bloc img {
-        width:240px; /* you can use % */
+    .hebergement_bloc img 
+    {
+        width:240px;
         height: 190px;
+        border-radius: 20px;
     }
 
-    .hebergement_bloc { 
+    .hebergement_bloc 
+    { 
         background-color: #ffffff;
         padding: 5px 5px 5px 5px;
         block-size: 190px;
+        border-radius: 20px;
     }
 
-    .populaire_bloc { 
+    .populaire_box 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .populaire_bloc 
+    { 
         background-color: #ffffff;
         padding: 5px 5px 5px 5px;
         block-size: 135px;
-
     }
 
-    .populaire_bloc img {
+    .populaire_bloc img 
+    {
         width:auto; 
         height: 135px;
     }
@@ -144,6 +207,35 @@
     bottom: 0;
     right: ;
     left: ;
-    background-color: white;
-   
+    background-color: white;  
+}
+
+#activites 
+{
+
+    display: flex;
+    margin : 20px 20px 20px 50px;
+    padding: 40px 40px 40px 0px;
+}
+
+footer 
+{
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 40px 50px 50px;
+}
+
+footer ul 
+{
+    padding: 0;
+}
+
+footer li
+{
+    margin-bottom: 15px;
+}
+
+footer div
+{
+    flex: 1;
 }
