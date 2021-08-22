@@ -139,7 +139,7 @@ aside
 {
     margin-left: 20px;
     background-color: #F2F2F2;
-    padding: 40px 40px 40px 40px;
+    padding: 20px 40px 20px 40px;
     border-radius: 20px;
 }
 
@@ -157,7 +157,7 @@ aside
 {
     display: flex;
     align-items: center; 
-    height: 60px;
+    height: 40px;
 }
 
 .hebergements_box 
@@ -181,6 +181,7 @@ aside
     padding: 5px 5px 5px 5px;
     border-radius: 20px;
     margin: 15px 0;
+    box-shadow: 0 0 7px #c1c1c1;
 }
 
 .auberge_cannebiere, .hotel_du_port, .hotel_les_mouettes, .hotel_de_la_mer, .auberge_le_panier, .hotel_chez_amina 
@@ -203,7 +204,8 @@ aside
     padding: 5px 5px 5px 5px;
     border-radius: 20px;
     margin: 15px 0;
-    width: 340px;
+    width: 21rem;
+    box-shadow: 0 0 7px #c1c1c1;
 }
 
 .populaire_bloc img 
@@ -221,12 +223,89 @@ aside
     line-height: 15px;
 }
 
-#activites 
+#activites
+{
+    margin : 20px 20px 20px 50px;
+}
+
+.section_activites 
 {
 
     display: flex;
-    margin : 20px 20px 20px 50px;
-    padding: 40px 40px 40px 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.activite_bloc
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.vieux_port, .fort_de_pomegues, .iles_du_frioul, .calanques, .notre_dame_de_la_garde ,.parc_longchamp
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+
+.vieux_port h3, .fort_de_pomegues h3, .iles_du_frioul h3, .calanques h3, .notre_dame_de_la_garde h3, .parc_longchamp h3
+{
+    margin-left: 20px;
+}
+
+.vieux_port img 
+{
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0px;
+}
+
+.fort_de_pomegues img 
+{
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0px;
+}
+
+.iles_du_frioul img 
+{
+    width: 300px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0px;
+}
+
+.calanques img 
+{
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0px;
+}
+
+.notre_dame_de_la_garde img 
+{
+    width: 300px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0px;
+}
+
+.parc_longchamp img 
+{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0px;
 }
 
 footer 
