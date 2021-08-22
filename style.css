@@ -26,188 +26,199 @@
 
 }
 
-@media screen and (min-width: 1024px) 
+body 
 {
-
-    body 
-    {
-        font-family: 'ralewaylight', Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        margin: 0;
-    }
+    font-family: 'ralewaylight', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
     
-    h1 
-    {
-        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    h2 
-    {
-        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    h3 
-    {
-        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-    }
-
-    .afficher_plus 
-    {
-        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    } 
-    
-    li 
-    {
-        list-style-type: none;
-    }
-
-    header 
-    {
-        display:  flex;
-        justify-content: space-between;
-        margin-left: 50px;
-    }
-
-    #logo 
-    {
-        margin: 50px 25px 10px 0px;
-    }
-
-    header nav ul 
-    {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    header nav ul li 
-    {
-        margin-right: 50px;
-        padding: 50px 25px 10px 25px;
-    }
-
-    header nav ul li a.actif 
-    { 
-        color: #0065FC;
-        text-decoration: none;
-        border-top: #0065FC solid 2px;
-        padding-top: 62px;
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-
-    header nav ul li a.inscription 
-    { 
-        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-        color: #0065FC;
-        text-decoration: none;
-        padding-top: 62px;
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-
-    a 
-    {
-        color: #000000;
-        text-decoration: none;
-    }
-    a:visited 
-    {
-        color: #000000;
-        text-decoration: none;
-    }
-
-    strong 
-    {
-        font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-    }
-
-    .description 
-    {
-        margin-left: 50px;
-    }
-
-    #hebergements 
-    {
-    
-        display: flex;
-        justify-content: space-between;
-        margin : 20px 20px 20px 50px;
-        padding: 40px 40px 40px 0px;
-    }
-
-    aside 
-    {
-        text-align: justify;
-        margin-left: 20px;
-        background-color: #F2F2F2;
-        padding: 40px 40px 40px 40px;
-        border-radius: 20px;
-    }
-
-    .section_hebergements 
-    {
-        text-align: justify;
-        margin-right: 20px;
-        background-color: #F2F2F2;
-        padding: 40px 40px 40px 40px;
-        border-radius: 20px;
-    }
-
-    .hebergements_box 
-    {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .hebergement_bloc img 
-    {
-        width:240px;
-        height: 190px;
-        border-radius: 20px;
-    }
-
-    .hebergement_bloc 
-    { 
-        background-color: #ffffff;
-        padding: 5px 5px 5px 5px;
-        block-size: 190px;
-        border-radius: 20px;
-    }
-
-    .populaire_box 
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-    }
-
-    .populaire_bloc 
-    { 
-        background-color: #ffffff;
-        padding: 5px 5px 5px 5px;
-        block-size: 135px;
-    }
-
-    .populaire_bloc img 
-    {
-        width:auto; 
-        height: 135px;
-    }
-
-    
-    .auberge_cannebiere
+h1 
 {
-    position: absolute;
-    top: 600px;
-    bottom: 0;
-    right: ;
-    left: ;
-    background-color: white;  
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h2 
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h3 
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+}
+
+.afficher_plus 
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+} 
+    
+li 
+{
+    list-style-type: none;
+}
+
+header 
+{
+    display:  flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+#logo 
+{
+    margin: 50px 25px 10px 0px;
+}
+
+header nav ul 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li 
+{
+    margin-right: 50px;
+    padding: 50px 25px 10px 25px;
+}
+
+header nav ul li a.actif 
+{ 
+    color: #0065FC;
+    text-decoration: none;
+    border-top: #0065FC solid 2px;
+    padding-top: 62px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+header nav ul li a.inscription 
+{ 
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    color: #0065FC;
+    text-decoration: none;
+    padding-top: 62px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+a 
+{
+    color: #000000;
+    text-decoration: none;
+}
+a:visited 
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+strong 
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+}
+
+.description 
+{
+    margin-left: 50px;
+}
+
+#hebergements 
+{
+    
+    display: flex;
+    justify-content: space-between;
+    margin : 20px 20px 20px 50px;
+    padding: 40px 40px 40px 0px;
+}
+
+aside 
+{
+    margin-left: 20px;
+    background-color: #F2F2F2;
+    padding: 40px 40px 40px 40px;
+    border-radius: 20px;
+}
+
+.section_hebergements 
+{
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.afficher_plus
+{
+    display: flex;
+    align-items: center; 
+    height: 60px;
+}
+
+.hebergements_box 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hebergement_bloc img 
+{
+    width:240px;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.hebergement_bloc 
+{ 
+    background-color: #ffffff;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+.auberge_cannebiere, .hotel_du_port, .hotel_les_mouettes, .hotel_de_la_mer, .auberge_le_panier, .hotel_chez_amina 
+{
+    margin: 15px;
+    padding: 0px;
+    line-height: 10px;
+}
+
+.populaire_box 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.populaire_bloc a
+{ 
+    display: flex;
+    background-color: #ffffff;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    margin: 15px 0;
+    width: 340px;
+}
+
+.populaire_bloc img 
+{
+    width: 130px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 20px 0px 0 20px;
+}
+
+.hotel_le_soleil_du_matin, .au_coeur_de_l_eau, .hotel_tout_bleu_et_blanc
+{
+    margin: 0px 15px 0 15px;
+    padding: 0px;
+    line-height: 15px;
 }
 
 #activites 
