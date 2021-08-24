@@ -126,6 +126,23 @@ strong
     margin-left: 50px;
 }
 
+.blue_star
+{
+    color: #0065FC;
+    font-size: 11px;
+}
+
+.grey_star
+{
+    color: #d9d9d9;
+    font-size: 11px;
+}
+
+.star
+{
+    margin-top: 25px;
+}
+
 #hebergements 
 {
     
@@ -191,6 +208,18 @@ aside
     line-height: 10px;
 }
 
+.populaire_title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.fas.fa-chart-line
+{
+    font-size: 1.5rem;
+}
+
 .populaire_box 
 {
     display: flex;
@@ -220,7 +249,6 @@ aside
 {
     margin: 0px 15px 0 15px;
     padding: 0px;
-    line-height: 15px;
 }
 
 #activites
