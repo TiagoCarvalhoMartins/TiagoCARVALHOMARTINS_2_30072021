@@ -121,9 +121,74 @@ strong
     font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
 }
 
+.filtre_title h3
+{
+    font-size: 15px;
+    margin-left: 0px;
+    padding-left: 0;
+    border: 0px;S
+}
+
+.filtres
+{
+    display: flex;
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-right: 30px;
+}
+
+.filtre
+{
+    display: flex;
+    align-items: baseline;
+    border: 2px solid #f2f2f2;
+    border-left: none;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+
+.fas.fa-money-bill-wave,  .fas.fa-child, .fas.fa-heart, .fas.fa-dog
+{
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.filtre:hover
+{
+    cursor: pointer;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
 .description 
 {
     margin-left: 50px;
+}
+
+.info
+{
+    display: flex;
+    align-items: baseline;
+}
+
+.fas.fa-info
+{
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    color: #0065FC;
+    margin-right: 15px;
 }
 
 .blue_star
