@@ -121,12 +121,49 @@ strong
     font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
 }
 
-.filtre_title h3
+form
+{
+    display: flex;
+    justify-content: baseline;
+}
+
+.champ
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid #f2f2f2;
+    padding: 18px;
+}
+
+.fas.fa-map-marker-alt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px 0px 0px 20px;
+    padding: 18px;
+    background-color: #F2F2F2;
+}
+
+.bouton_recherche
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #0065FC;
+    padding: 18px;
+}
+
+.filtres h3
 {
     font-size: 15px;
     margin-left: 0px;
     padding-left: 0;
-    border: 0px;S
+    border: 0px;
 }
 
 .filtres
@@ -135,6 +172,7 @@ strong
     font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
     font-size: 15px;
     padding-right: 30px;
+    margin: 20px 0px;
 }
 
 .filtre
@@ -142,10 +180,10 @@ strong
     display: flex;
     align-items: baseline;
     border: 2px solid #f2f2f2;
-    border-left: none;
     margin-left: 20px;
     padding-right: 20px;
     border-radius: 25px;
+    height: 50px;
 }
 
 .fas.fa-money-bill-wave,  .fas.fa-child, .fas.fa-heart, .fas.fa-dog
@@ -177,6 +215,7 @@ strong
 {
     display: flex;
     align-items: baseline;
+    margin: 20px 0px;
 }
 
 .fas.fa-info
@@ -213,8 +252,8 @@ strong
     
     display: flex;
     justify-content: space-between;
-    margin : 20px 20px 20px 50px;
-    padding: 40px 40px 40px 0px;
+    margin : 0px 20px 20px 50px;
+    padding: 0px 40px 40px 0px;
 }
 
 aside 

@@ -24,12 +24,14 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <div class="form"> <!-- Faire le formulaire avec bouton et logo loupe -->
-
+                    <form method="post" action="traitement.php">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input class="champ" type="text" name="localisation" value="Marseille, France"/>
+                        <input class="bouton_recherche" type="button" value="Rechercher" />
+                    </form>
                 </div>
                 <div class="filtres">
-                    <div class="filtre_title"> <!-- faire les 4 filtres avec logo -->
-                        <h3>Filtres</h3>
-                    </div>
+                    <h3>Filtres</h3>
                     <div class="filtre">
                         <i class="fas fa-money-bill-wave"></i>
                         <p>Économique</p>
