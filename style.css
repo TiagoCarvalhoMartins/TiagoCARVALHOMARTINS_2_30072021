@@ -461,3 +461,79 @@ footer div
 {
     flex: 1;
 } 
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    body 
+    {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    h1 
+    {
+        font-size: 22px;
+    }
+
+    h2 
+    {
+        font-size: 22px;
+    }
+
+    .filtres
+    {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 19px;
+    }
+
+    .filtres h3
+    {
+    font-size: 19px;
+    }
+
+    .filtre
+    {
+        margin-bottom: 15px;
+        height: auto;
+        border-radius: 35px;
+    }
+
+    .fas.fa-money-bill-wave,  .fas.fa-child, .fas.fa-heart, .fas.fa-dog
+    {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    #hebergements
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section_hebergements
+    {
+        margin:  20px 0;
+        background-color: white;
+    }
+
+    aside
+    {
+        margin: 20px 0px;
+    }
+
+    .populaire_box
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+    .populaire_bloc img 
+    {
+        width: 130px;
+        height: 195px;
+        object-fit: cover;
+        border-radius: 20px 0px 0 20px;
+    }
+}
