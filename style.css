@@ -537,13 +537,7 @@ footer div
 
     .section_hebergements
     {
-        margin:  20px 0;
         background-color: white;
-    }
-
-    aside
-    {
-        margin: 20px 0px;
     }
 
     .populaire_box
@@ -591,9 +585,9 @@ footer div
         height: 115px;
     }
 
-    .section_activites
+    #activites
     {
-        margin: 15px;
+        padding: 20px 40px 20px 40px;
     }
 
     .activite_bloc
@@ -603,13 +597,13 @@ footer div
 
     .calanques img 
     {
-        width: 500px;
+        width: 400px;
         height: 390px;
     }
 
     .vieux_port img 
     {
-        width: 500px;
+        width: 400px;
         height: 390px;
     }
 }
