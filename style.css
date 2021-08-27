@@ -124,7 +124,6 @@ strong
 form
 {
     display: flex;
-    justify-content: baseline;
 }
 
 .champ
@@ -197,6 +196,7 @@ form
     background-color: #DEEBFF;
     margin-right: 15px;
     font-size: 20px;
+    margin-left: -1px;
 }
 
 .filtre:hover
@@ -305,7 +305,7 @@ aside
     box-shadow: 0 0 7px #c1c1c1;
 }
 
-.auberge_cannebiere, .hotel_du_port, .hotel_les_mouettes, .hotel_de_la_mer, .auberge_le_panier, .hotel_chez_amina 
+.hebergement_descrition 
 {
     margin: 15px;
     padding: 0px;
@@ -349,7 +349,7 @@ aside
     border-radius: 20px 0px 0 20px;
 }
 
-.hotel_le_soleil_du_matin, .au_coeur_de_l_eau, .hotel_tout_bleu_et_blanc
+.populaire_description
 {
     margin: 0px 15px 0 15px;
     padding: 0px;
@@ -376,6 +376,7 @@ aside
     flex-direction: column;
     justify-content: space-between;
     border-radius: 20px;
+    margin-top: 15px;
 }
 
 .vieux_port, .fort_de_pomegues, .iles_du_frioul, .calanques, .notre_dame_de_la_garde ,.parc_longchamp
@@ -480,6 +481,21 @@ footer div
         font-size: 22px;
     }
 
+    .champ
+    {
+        font-size: 19px;
+    }
+
+    .fas.fa-map-marker-alt
+    {
+        font-size: 19px;
+    }
+
+    .bouton_recherche
+    {
+        font-size: 19px;
+    }
+
     .filtres
     {
     display: flex;
@@ -503,6 +519,14 @@ footer div
     {
         font-size: 22px;
         padding: 20px;
+    }
+
+    .fas.fa-info
+    {
+        width: 19px;
+        height: 19px;
+        padding: 9px;
+        margin-right: 19px;
     }
 
     #hebergements
@@ -529,11 +553,63 @@ footer div
         flex-wrap: wrap;
         justify-content: space-between
     }
+
+    .populaire_description p
+    {
+        line-height: 3px;
+    }
+
+    .populaire_description
+    {
+        position: relative;
+    }
+
+    .populaire_description .star
+    {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 15px;
+    }
+
     .populaire_bloc img 
     {
         width: 130px;
         height: 195px;
         object-fit: cover;
         border-radius: 20px 0px 0 20px;
+    }
+
+    .hebergement_bloc
+    {
+        width:320px;
+        height: 230px;
+    }
+
+    .hebergement_bloc img
+    {
+        width:320px;
+        height: 115px;
+    }
+
+    .section_activites
+    {
+        margin: 15px;
+    }
+
+    .activite_bloc
+    {
+        margin: 15px;
+    }
+
+    .calanques img 
+    {
+        width: 500px;
+        height: 390px;
+    }
+
+    .vieux_port img 
+    {
+        width: 500px;
+        height: 390px;
     }
 }
