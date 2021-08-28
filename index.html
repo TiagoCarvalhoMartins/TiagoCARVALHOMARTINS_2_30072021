@@ -6,6 +6,7 @@
         <script src="https://kit.fontawesome.com/16c7ddff84.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
         <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve." />
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
     </head>
     <body> 
         <header>
@@ -15,7 +16,7 @@
             <nav>
                 <ul>
                     <li><a href="#hebergements" class="actif">Hébergements</a></li>
-                    <li><a href="#activites">Activités</a></li>
+                    <li><a href="#activites" class="activites_ancre">Activités</a></li>
                     <li><a href="#" class="inscription">S'inscrire</a></li>
                 </ul>
             </nav>
@@ -24,10 +25,13 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <div class="form"> <!-- Faire le formulaire avec bouton et logo loupe -->
-                    <form method="post" action="traitement.php">
+                    <form method="post" action="#">
                         <i class="fas fa-map-marker-alt"></i>
                         <input class="champ" type="text" name="localisation" value="Marseille, France"/>
-                        <input class="bouton_recherche" type="button" value="Rechercher" />
+                        <button class="bouton_recherche">
+                            <span  class="rechercher">Rechercher</span>
+                            <i class="fas fa-search"></i>
+                        </button>
                     </form>
                 </div>
                 <div class="filtres">

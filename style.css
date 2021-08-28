@@ -157,6 +157,11 @@ form
     padding: 18px;
 }
 
+.fas.fa-search
+{
+    display: none;
+}
+
 .filtres h3
 {
     font-size: 15px;
@@ -467,46 +472,16 @@ footer div
 {
     body 
     {
-        font-size: 18px;
         margin: 0;
-    }
-    
-    h1 
-    {
-        font-size: 22px;
-    }
-
-    h2 
-    {
-        font-size: 22px;
-    }
-
-    .champ
-    {
-        font-size: 19px;
-    }
-
-    .fas.fa-map-marker-alt
-    {
-        font-size: 19px;
-    }
-
-    .bouton_recherche
-    {
-        font-size: 19px;
+        padding: 0;
     }
 
     .filtres
     {
     display: flex;
     flex-wrap: wrap;
-    font-size: 19px;
     }
 
-    .filtres h3
-    {
-    font-size: 19px;
-    }
 
     .filtre
     {
@@ -517,7 +492,6 @@ footer div
 
     .fas.fa-money-bill-wave,  .fas.fa-child, .fas.fa-heart, .fas.fa-dog
     {
-        font-size: 22px;
         padding: 20px;
     }
 
@@ -533,6 +507,8 @@ footer div
     {
         display: flex;
         flex-direction: column-reverse;
+        padding: 0px 40px 0px 0px;
+        margin: 0px 20px 0px 50px;
     }
 
     .section_hebergements
@@ -545,7 +521,7 @@ footer div
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between
+        justify-content: space-between;
     }
 
     .populaire_description p
@@ -567,43 +543,210 @@ footer div
 
     .populaire_bloc img 
     {
-        width: 130px;
+        width: 300px;
         height: 195px;
         object-fit: cover;
         border-radius: 20px 0px 0 20px;
     }
 
+    .populaire_bloc a
+    {
+        width: 550px;
+    }
+
     .hebergement_bloc
     {
-        width:320px;
-        height: 230px;
+        width: 250px;
+        height: 210px;
     }
 
     .hebergement_bloc img
     {
-        width:320px;
+        width: 250px;
         height: 115px;
     }
 
     #activites
     {
-        padding: 20px 40px 20px 40px;
-    }
-
-    .activite_bloc
-    {
-        margin: 15px;
+        padding: 0px 40px 20px 40px;
     }
 
     .calanques img 
     {
-        width: 400px;
-        height: 390px;
+        width: 270px;
+        height: 350px;
     }
 
     .vieux_port img 
     {
-        width: 400px;
-        height: 390px;
+        width: 270px;
+        height: 350px;
+    }
+
+}
+
+@media (min-device-width : 320px) and (max-device-width : 480px)
+{
+    html,body
+    {
+        overflow-x: hidden;
+        font-size: 16px;
+    }
+
+    h1 
+    {
+        font-size: 24px;
+    }
+
+    h2 
+    {
+        font-size: 18px;
+    }
+
+    header
+    {
+        margin-left: 15px;
+    }
+
+    .description
+    {
+        margin-left: 15px;
+    }
+
+    .bouton_recherche
+    {
+        border-radius: 20px;
+    }
+    .rechercher
+    {
+        display: none;
+    }
+
+    .fas.fa-search
+    {
+        display: block;
+    }
+
+    .filtres
+    {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+
+    .filtre
+    {
+        margin-bottom: 15px;
+        height: auto;
+        border-radius: 35px;
+    }
+
+    .fas.fa-money-bill-wave,  .fas.fa-child, .fas.fa-heart, .fas.fa-dog
+    {
+        padding: 20px;
+    }
+
+    .fas.fa-info
+    {
+        width: 19px;
+        height: 19px;
+        padding: 9px;
+        margin-right: 19px;
+    }
+
+    #hebergements
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    aside
+    {
+        margin-left: 0;
+        border-radius: 0;
+        padding: 20px 15px 20px 15px;
+    }
+
+    .section_hebergements
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+    }
+
+    .populaire_box
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .populaire_description p
+    {
+        line-height: 3px;
+    }
+
+    .populaire_description
+    {
+        position: relative;
+    }
+
+    .populaire_description .star
+    {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 15px;
+    }
+
+    .populaire_bloc img 
+    {
+        width: 300px;
+        height: 195px;
+        object-fit: cover;
+        border-radius: 20px 0px 0 20px;
+    }
+
+    .populaire_bloc a
+    {
+        width: 550px;
+    }
+
+    .hebergement_bloc
+    {
+        width: 250px;
+        height: 210px;
+    }
+
+    .hebergement_bloc img
+    {
+        width: 250px;
+        height: 115px;
+    }
+
+    #activites
+    {
+        padding: 0px;
+        margin: 30px 15px 50px 15px;
+    }
+
+    .calanques img 
+    {
+        width: 270px;
+        height: 350px;
+    }
+
+    .vieux_port img 
+    {
+        width: 270px;
+        height: 350px;
+    }
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
     }
 }
