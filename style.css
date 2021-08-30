@@ -105,6 +105,16 @@ header nav ul li a.inscription
     padding-left: 25px;
 }
 
+header nav ul li a.activites_ancre
+{
+    color: #0065FC;
+}
+
+.ancres
+{
+    display: flex;
+}
+
 a 
 {
     color: #000000;
@@ -214,6 +224,11 @@ form
 .description 
 {
     margin-left: 50px;
+}
+
+.filtres_title
+{
+    display: none;
 }
 
 .info
@@ -384,7 +399,7 @@ aside
     margin-top: 15px;
 }
 
-.vieux_port, .fort_de_pomegues, .iles_du_frioul, .calanques, .notre_dame_de_la_garde ,.parc_longchamp
+.activites_description
 {   
     display: flex;
     flex-direction: column;
@@ -393,7 +408,7 @@ aside
     box-shadow: 0 0 7px #c1c1c1;
 }
 
-.vieux_port h3, .fort_de_pomegues h3, .iles_du_frioul h3, .calanques h3, .notre_dame_de_la_garde h3, .parc_longchamp h3
+.activites_description h3
 {
     margin-left: 20px;
 }
@@ -470,6 +485,11 @@ footer div
 
 @media (min-width: 768px) and (max-width: 1024px)
 {
+    html,body
+    {
+        overflow-x: hidden;
+    }
+
     body 
     {
         margin: 0;
@@ -590,7 +610,7 @@ footer div
     html,body
     {
         overflow-x: hidden;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     h1 
@@ -607,6 +627,37 @@ footer div
     {
         margin-left: 15px;
     }
+
+    nav ul 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li 
+    {
+        margin-right: 0px;
+        padding: 50px 10px 10px 25px;
+    }
+
+    header nav ul 
+    {
+        
+    }
+
+    .ancres
+    {
+        order: 2;
+    }
+
+    header nav ul li a.actif 
+{ 
+    text-decoration: none;
+    border-bottom: #0065FC solid 2px;
+    border-top: none;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
 
     .description
     {
@@ -631,27 +682,31 @@ footer div
     {
     display: flex;
     flex-wrap: wrap;
+    padding-right: 0px;
     }
 
+    .filtres h3
+    {
+        display: none;
+    }
+
+    .filtres_title
+    {
+        display: block;
+    }
 
     .filtre
     {
         margin-bottom: 15px;
         height: auto;
         border-radius: 35px;
+        margin-left: 10px;
     }
 
     .fas.fa-money-bill-wave,  .fas.fa-child, .fas.fa-heart, .fas.fa-dog
     {
-        padding: 20px;
-    }
-
-    .fas.fa-info
-    {
-        width: 19px;
-        height: 19px;
-        padding: 9px;
-        margin-right: 19px;
+        padding: 15px;
+        font-size: 20px;
     }
 
     #hebergements
@@ -703,45 +758,57 @@ footer div
 
     .populaire_bloc img 
     {
-        width: 300px;
-        height: 195px;
+        width: 130px;
+        height: 135px;
         object-fit: cover;
         border-radius: 20px 0px 0 20px;
     }
 
     .populaire_bloc a
     {
-        width: 550px;
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .section_hebergements 
+    {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .hebergement_bloc
     {
-        width: 250px;
-        height: 210px;
+        width: 95%;
+        height: 195px;
+        margin: 10px 0;
+    }
+
+    .hebergement_descrition
+    {
+        line-height: 6px;
     }
 
     .hebergement_bloc img
     {
-        width: 250px;
+        width: 100%;
         height: 115px;
     }
 
     #activites
     {
         padding: 0px;
-        margin: 30px 15px 50px 15px;
+        margin: 30px 10px 50px 20px;
     }
 
-    .calanques img 
+    .activites_description img
     {
-        width: 270px;
-        height: 350px;
+        height: 135px;
+        width: 335px;
     }
 
-    .vieux_port img 
+    .activite_column
     {
-        width: 270px;
-        height: 350px;
+        margin: 10px 0;
     }
 
     footer
