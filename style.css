@@ -30,7 +30,8 @@ body
 {
     font-family: 'ralewaylight', Arial, Helvetica, sans-serif;
     font-size: 14px;
-    margin: 0;
+    margin: auto;
+    max-width: 1440px;
 }
     
 h1 
@@ -84,7 +85,7 @@ header nav ul
 header nav ul li 
 {
     margin-right: 50px;
-    padding: 50px 25px 10px 25px;
+    padding: 48px 25px 10px 25px;
 }
 
 header nav ul li a.actif
@@ -496,12 +497,8 @@ footer div
     flex: 1;
 } 
 
-@media (max-width: 1024px)
+@media only screen and (min-device-width : 381px) and (max-device-width : 1024px)
 {
-    html,body
-    {
-        overflow-x: hidden;
-    }
 
     body 
     {
@@ -509,12 +506,17 @@ footer div
         padding: 0;
     }
 
+    header nav ul li
+    {
+        margin-right: auto;
+        padding: 48px 10px 10px 10px;
+    }
+
     .filtres
     {
     display: flex;
     flex-wrap: wrap;
     }
-
 
     .filtre
     {
@@ -575,7 +577,7 @@ footer div
 
     .populaire_bloc img 
     {
-        width: 100%;
+        width: 50%;
         max-width: 300px;
         height: 195px;
         object-fit: cover;
@@ -602,6 +604,13 @@ footer div
     #activites
     {
         padding: 0px 40px 20px 40px;
+        margin: auto;
+    }
+
+    .section_activites
+    {
+        margin: 0;
+        padding: 0;
     }
 
     .calanques img 
@@ -615,10 +624,9 @@ footer div
         width: 270px;
         height: 350px;
     }
-
 }
 
-@media (max-width : 480px)
+@media only screen and (max-width : 380px)
 {
     html,body
     {
@@ -713,9 +721,10 @@ footer div
         border-bottom-color:#0065FC;
     }
 
-    .activites_ancre
+    header nav ul li a.activites_ancre
     {
         text-decoration: none;
+        border-top: none;
         padding-top: 0px;
         padding-bottom: 10px;
     }
