@@ -497,7 +497,7 @@ footer div
     flex: 1;
 } 
 
-@media only screen and (min-device-width : 381px) and (max-device-width : 1024px)
+@media only screen and (min-width : 381px) and (max-width : 1024px)
 {
 
     body 
