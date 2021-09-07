@@ -90,7 +90,7 @@ header nav ul li
 
 header nav ul li a.actif
 {
-    color: #0065FC;
+    color: black;
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -99,6 +99,7 @@ header nav ul li a.actif:hover
 {
     padding-top: 60px;
     border-top: #0065FC solid 2px;
+    color: #0065FC
 }
 
 header a.inscription 
@@ -119,7 +120,7 @@ header a.inscription:hover
 
 header nav ul li a.activites_ancre
 {
-    color: #0065FC;
+    color: black;
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -128,6 +129,7 @@ header nav ul li a.activites_ancre:hover
 {
     padding-top: 60px;
     border-top: #0065FC solid 2px;
+    color: #0065FC
 }
 .ancres
 {
