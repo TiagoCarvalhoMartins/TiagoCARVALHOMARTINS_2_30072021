@@ -95,14 +95,10 @@ header nav ul li a.actif
     padding-left: 25px;
 }
 
-header nav ul li a:hover 
-{ 
-    color: #0065FC;
-    text-decoration: none;
+header nav ul li a.actif:hover
+{
+    padding-top: 60px;
     border-top: #0065FC solid 2px;
-    padding-top: 62px;
-    padding-right: 25px;
-    padding-left: 25px;
 }
 
 header a.inscription 
@@ -115,6 +111,12 @@ header a.inscription
     padding-left: 25px;
 }
 
+header a.inscription:hover
+{
+    padding-top: 60px;
+    border-top: #0065FC solid 2px;
+}
+
 header nav ul li a.activites_ancre
 {
     color: #0065FC;
@@ -122,6 +124,11 @@ header nav ul li a.activites_ancre
     padding-left: 25px;
 }
 
+header nav ul li a.activites_ancre:hover
+{
+    padding-top: 60px;
+    border-top: #0065FC solid 2px;
+}
 .ancres
 {
     display: flex;
@@ -715,6 +722,7 @@ footer div
     header nav li a:hover
     {
         border-top: none;
+        border-bottom-color:#0065FC;
     }
 
     header nav li:hover
@@ -722,7 +730,12 @@ footer div
         border-bottom-color:#0065FC;
     }
 
-    header nav ul li a.activites_ancre
+    header nav ul li a.actif:hover
+    {
+        border-top: none;
+    }
+
+    header nav ul li a.activites_ancre:hover
     {
         text-decoration: none;
         border-top: none;
