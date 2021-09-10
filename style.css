@@ -890,6 +890,7 @@ footer div
     .section_activites
     {
         display: block;
+        margin-right: 0;
     }
 
     .activites_description img
